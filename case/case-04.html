@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            height: 1px;
+            width: 1px;
+            border: 10px solid palevioletred;
+            position: absolute;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+            border-radius: 100%;
+            animation: myAni 2s infinite;
+        }
+
+        @keyframes myAni {
+            from{
+                height: 1px;
+                width: 1px;
+            }
+            to{
+                height: 300px;
+                width: 300px;
+                opacity: 0;
+            }
+
+        }
+    </style>
+</head>
+<body>
+<div></div>
+</body>
+</html>
